@@ -9,12 +9,12 @@ The bash script is hard-coded for NTLM. In reality, you would want to modify it 
 Anyways, this was fun to play with, and I think it's a start for something more real.
 
 You will need a .aws folder containing a credential file in the following format, stored in the default filepath that boto3 looks for (or modify the settings):
-
-\[default]
-region = us-east-1
+```
+[default]
+region = region-here-1
 aws_access_key_id = YOUR_ACCESS_KEY
 aws_secret_access_key = YOUR_SECRET_KEY
-
+```
 
 
 You will also need to make /potfile, /hashes, and /scripts folders in root filesystem (I build this for Ubuntu specifically). Modify permissions correctly.
